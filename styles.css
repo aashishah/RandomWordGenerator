@@ -1,0 +1,63 @@
+body{
+    padding: 0px;
+    margin: 30px;
+    justify-content: : center;
+    font-family:  'Raleway', sans-serif;
+    background: #bfb0ad;
+    color: #463e4b;
+    overflow: hidden;
+}
+
+h1{
+    font-size: 32px;
+    padding-top: 2%;
+}
+
+.genw{
+    font-size: 30px;
+    padding: 10px;
+    margin: 5px;
+    width: 80%;
+    height: 50px;
+    align-items: center;
+    border: 0.20rem solid #7a787d;
+    color: white;
+}
+
+.defn {
+	font-size: 30px;
+    padding: 10px;
+    margin: 5px;
+    width: 80%;
+    height: 100px;
+    align-items: center;
+    border: 0.20rem solid #7a787d;
+    color: white;
+
+}
+
+.btn {
+
+	border-radius: 25px;
+	border: 0;
+	background-color: #ba7f61;
+  	font-family: inherit;
+  	padding: 10px;
+  	cursor: pointer;
+  	color: white;
+  	margin: 5px;
+  	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
+}
+
+
+@media screen and (max-width: 600px){
+    .controls{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .controls{
+        width: 37%;
+    }
+}
